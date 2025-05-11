@@ -6,6 +6,14 @@ A simple socket-based network packet sniffer that will capture different network
 ## Project Structure
 
 
-``` SplendidJobToby/ |---CMakeLists.txt # CMake build config |---.gitignore # Ignore build artifacts, logs, binaries
-    |--- README.md # Project overview, instructions
+```
+
+SplendidJobToby/
+
+├── logs
+├── README.md
+├── src
+│   └── main.cpp
+└── test
+
 ```
