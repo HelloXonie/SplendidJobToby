@@ -7,4 +7,5 @@ A simple socket-based network packet sniffer that will capture different network
 
 
 ``` SplendidJobToby/ |---CMakeLists.txt # CMake build config |---.gitignore # Ignore build artifacts, logs, binaries
-
+    |--- README.md # Project overview, instructions
+```
