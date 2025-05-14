@@ -1,8 +1,10 @@
 #include <iostream>
+#include <packet_sniffer.h>
+
 
 int main(){
-	std::cout << "Packet Sniffer starting..." << std::endl;
-    return 0;
+	PacketSniffer sniffer;
+	sniffer.startCapture();
+	sniffer.stopCapture();
+    	return 0;
 }
-
-
